@@ -12,6 +12,7 @@ interface SplashComponent {
 
     fun inject(target: SplashActivity)
 
+
     @Component.Builder
     interface Builder {
         @BindsInstance
